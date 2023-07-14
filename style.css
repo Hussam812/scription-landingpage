@@ -181,28 +181,87 @@ header nav ul li a {
 	grid-gap: 20px;
 }
 
+/* Download Section Styles */
+#download {
+	background-color: var(--tea-green-light);
+	padding: 0;
+}
 
+#download ul {
+	list-style-type: none;
+}
 
+#download .eachfeature li {
+	width:100%;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 
+#download ul li a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	color: var(--firey-rose);
+}
 
+#download article{
+	padding: 20px;
+}
 
+#download article:first-of-type{
+	display: flex;
+}
 
+#download > article > div {
+	margin-right: 20px;
+}
 
+#download article div img {
+	width: 70px;
+	margin: auto;
+}
 
+#download article img {
+	margin: auto;
+}
 
+#download article:first-of-type ul {
+	margin-top: 30px;
+}
 
+#download article:nth-child(2){
+	background-color: var(--tea-green);
+	min-height: 300px;
+	overflow: hidden;
+	position: relative;
+}
 
+#feature-container {
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+}
 
+#features {
+	position: absolute;
+	top: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
+#download article:nth-child(2) a {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #364A14;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Quicksand', sans-serif;
+	color: var(--jasmine);
+}
 
 
