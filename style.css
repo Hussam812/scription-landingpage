@@ -164,14 +164,22 @@ header nav ul li a {
 
 
 
+/* Overview Styling */
+
+.intro h2 {
+    font-size: 30px;
+}
+
+.intro p{
+    font-size: 20px;
+}
 
 
-
-
-
-
-
-
+#overview section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
 
 
 
