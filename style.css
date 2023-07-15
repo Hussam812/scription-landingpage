@@ -265,3 +265,71 @@ header nav ul li a {
 }
 
 
+/* Pricing Section Styles*/
+#pricing {
+	background-color: var(--english-violet);
+	color: #fff;
+}
+
+#pricing h2 {
+	color: #fff;
+}
+
+#pricing #tabs > ul {
+	display: flex;
+	list-style-type: none;
+}
+
+#pricing #tabs > ul > li > a {
+	display: block;
+	height: 30px;
+	line-height	: 30px;
+	margin-right: 5px;
+	background: var(--tea-green);
+	color: var(--rich-black);
+	padding: 0 15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+#pricing #tabs > div {
+	display: none;
+	padding: 15px;
+	background-color: var(--tea-green-light);
+	color: var(--rich-black);
+	border-top-right-radius: 10px;
+	min-height: 500px;
+
+}
+
+#pricing #tabs > div:first-of-type{
+	display: block;
+	background: var(--tea-green-light);
+}
+#pricing #tabs >ul > li:first-of-type a{
+	background: var(--tea-green-light);
+} 
+
+#pricing #tabs div ul {
+	margin-left: 1em;
+	margin-bottom: 1em;
+} 
+
+#pricing #tabs div ul li {
+	margin-bottom: .5em;
+}
+
+#pricing #tabs div article {
+	margin-bottom: 20px;
+}
+
+
+#pricing #tabs div h3 {
+	color: var(--firey-rose);
+	text-align: center;
+}
+
+#pricing #tabs div h4{
+	text-align: center;
+} 
