@@ -363,3 +363,42 @@ header nav ul li a {
 #listen blockquote footer span {
 	color: var(--firey-rose);
 }
+
+/* Our Team Section */
+#ourteam{
+	background: #FCF7ED;
+}
+
+#ourteam h2 {
+	color: var(--rich-black);
+}
+
+#ourteam article div:first-of-type {
+	display: flex;
+	justify-content: space-between;
+}
+
+#ourteam figure {
+	margin: 0;
+}
+#ourteam div figure{
+	width: 48%;
+}
+
+#ourteam article figure img {
+	border-radius: 50%;
+	max-width: 80%;
+	margin: auto;
+}
+
+#ourteam figcaption {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+#ourteam figcaption span {
+	color: var(--firey-rose);
+}
