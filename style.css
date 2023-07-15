@@ -402,3 +402,34 @@ header nav ul li a {
 #ourteam figcaption span {
 	color: var(--firey-rose);
 }
+
+/* Footer Styles */
+#page > footer {
+	background: var(--rich-black);
+	color: var(--jasmine);
+	margin-bottom: 0;
+}
+
+footer .logo {
+	margin-bottom: 20px;
+}
+
+footer .logo h1 {
+	color: var(--jasmine);
+}
+footer nav ul{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+} 
+
+
+footer article h2 {
+	font-size: 20px;
+	text-align: center;
+	color: var(--jasmine);
+}
+
+footer article a {
+	color: var(--jasmine);
+}
