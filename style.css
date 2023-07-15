@@ -333,3 +333,33 @@ header nav ul li a {
 #pricing #tabs div h4{
 	text-align: center;
 } 
+/* Listen Section */
+#listen {
+	padding: 0;
+}
+#listen article {
+	padding: 20px;
+}
+
+#listen article:first-of-type{
+	background: var(--rich-black);
+	color: #fff;
+}
+#listen h2 {
+	color: #fff;
+}
+
+#listen blockquote {
+	font-size: 28px;
+	line-height: 1.3em;
+}
+
+#listen blockquote footer{
+	margin: 0;
+	font-size: .6em;
+}
+
+
+#listen blockquote footer span {
+	color: var(--firey-rose);
+}
